@@ -112,7 +112,7 @@ function App() {
         <DisplayText size="extraLarge"> The Shoppies</DisplayText>
         <Form
           onSubmit={() => {
-            setUrl(`http://www.omdbapi.com/?s=${query}&apikey=${apiKey}`);
+            setUrl(`https://www.omdbapi.com/?s=${query}&apikey=${apiKey}`);
             setSearchedQuery(query);
             doAnimate();
           }}
