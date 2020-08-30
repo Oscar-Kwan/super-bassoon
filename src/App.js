@@ -183,7 +183,7 @@ function App() {
               {nominations &&
                 nominations.map((item) => {
                   return (
-                    <StyledLi
+                    <Styledli
                       id={`${item.type}_${item.imdbID}`}
                       key={`result_${item.imdbID}`}
                     >
@@ -201,7 +201,7 @@ function App() {
                       >
                         Remove
                       </button>
-                    </StyledLi>
+                    </Styledli>
                   );
                 })}
             </StyledUList>
