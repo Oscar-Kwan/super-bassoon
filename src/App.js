@@ -138,7 +138,7 @@ function App() {
                     data &&
                     data.map((item) => {
                       return (
-                        <Styledli
+                        <li
                           state={state}
                           id={`${item.Type}_${item.imdbID}`}
                           key={`result_${item.imdbID}`}
@@ -164,7 +164,7 @@ function App() {
                           >
                             Nominate
                           </button>
-                        </Styledli>
+                        </li>
                       );
                     })
                   }
